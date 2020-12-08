@@ -184,13 +184,13 @@ header
 
 .header .ant-menu li.ant-menu-item-selected:before,
 .header .ant-menu li.ant-menu-item:hover:before {
-  left: -10%;
+  left: 5%;
   opacity: 1;
 }
 
 .header .ant-menu li.ant-menu-item-selected:after,
 .header .ant-menu li.ant-menu-item:hover:after {
-  right: -10%;
+  right: 5%;
   opacity: 1;
 }
 

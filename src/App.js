@@ -1,11 +1,12 @@
 import React from 'react';
-import 'antd/dist/antd.css';
-import { Layout } from 'antd';
-
 import './App.css';
-import AppHeader from './components/common/header';
+import 'antd/dist/antd.css';
 
-const { Header } = Layout;
+import AppHeader from './components/common/header';
+import AppHome from './views/home';
+
+import { Layout } from 'antd';
+const { Header, Content } = Layout;
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <Header>
         <AppHeader />
       </Header>
+      <Content>
+        <AppHome />
+      </Content>
     </Layout>
   );
 }
