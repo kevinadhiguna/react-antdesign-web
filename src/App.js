@@ -3,6 +3,7 @@ import 'antd/dist/antd.css';
 import { Layout, Menu } from 'antd';
 
 import './App.css';
+import AppHeader from './components/common/header';
 
 const { Header } = Layout;
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <Layout className='layout'>
       <Header>
+        <AppHeader />
         <div className='logo' />
         <Menu theme='dark' mode='horizontal' defaultSelectedKeys={['2']}>
           <Menu.Item key='1'>nav 1</Menu.Item>
