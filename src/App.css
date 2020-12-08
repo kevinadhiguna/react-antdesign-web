@@ -17,7 +17,7 @@ body {
   background: #fff !important;
 }
 
-.main-layout .ant-layout-header {
+.mainLayout .ant-layout-header {
   background: #f8f8f8;
   padding: 0;
   height: auto;
@@ -33,7 +33,10 @@ p {
   background: #fafafa;
 }
 
-/* Title Holder */
+/* 
+title holder
+------------
+*/
 .titleHolder {
   text-align: center;
   position: relative;
@@ -57,7 +60,10 @@ p {
   margin: 0;
 }
 
-/* Header */
+/* 
+header
+------ 
+*/
 .ant-layout-header {
   position: fixed;
   left: 0;
@@ -136,7 +142,7 @@ p {
   opacity: 1;
 }
 
-/* Ant menu */
+/* ant menu */
 .header .ant-menu {
   border: 0;
   background: none !important;
@@ -178,17 +184,20 @@ p {
 
 .header .ant-menu li.ant-menu-item-selected:before,
 .header .ant-menu li.ant-menu-item:hover:before {
-  left: 5%;
+  left: -10%;
   opacity: 1;
 }
 
 .header .ant-menu li.ant-menu-item-selected:after,
 .header .ant-menu li.ant-menu-item:hover:after {
-  right: 5%;
+  right: -10%;
   opacity: 1;
 }
 
-/* Hero */
+/* 
+hero
+---- 
+*/
 .heroBlock {
   background: url('assets/images/bg-hero.jpg') no-repeat;
   background-position: 50% 100%;
@@ -240,13 +249,19 @@ p {
   margin: 0 10px 0 0;
 }
 
-/* Block */
+/* 
+block
+----- 
+*/
 .block {
   padding: 60px 0;
   border-bottom: 1px solid #d9d9d9;
 }
 
-/* About */
+/* 
+about
+----- 
+*/
 .aboutBlock .contentHolder {
   text-align: center;
   margin: 0 0 50px;
@@ -262,7 +277,10 @@ p {
   text-align: center;
 }
 
-/* How it works */
+/* 
+how it works
+------------
+*/
 .worksBlock {
   background: url('assets/images/bg-works.jpg') no-repeat;
   background-position: 50% 0;
@@ -302,7 +320,10 @@ p {
   height: 110px;
 }
 
-/* FAQ */
+/* 
+faqs
+----
+*/
 .faqBlock .ant-collapse {
   margin: 0 0 40px;
 }
@@ -317,7 +338,10 @@ p {
   margin: 0 10px 0 0;
 }
 
-/* pricing block */
+/* 
+pricing block
+-------------
+*/
 .pricingBlock .ant-list {
   text-align: center;
 }
@@ -345,7 +369,10 @@ p {
   margin: 0 10px 0 0;
 }
 
-/* contact */
+/* 
+contact
+-------
+*/
 .contactBlock .ant-form {
   max-width: 640px;
   margin: auto;
@@ -356,7 +383,10 @@ p {
   height: 120px;
 }
 
-/* footer */
+/* 
+footer
+------
+*/
 .ant-layout-footer {
   background: #111 !important;
   color: #fff !important;
@@ -413,7 +443,10 @@ p {
   display: block;
 }
 
-/* responsiveness */
+/* 
+responsive
+----------
+*/
 @media only screen and (max-width: 991px) {
   .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1.14);

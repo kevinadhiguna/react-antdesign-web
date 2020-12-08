@@ -5,11 +5,18 @@ function AppHeader() {
   return (
     <div className="container-fluid">
       <div className="header">
-        <div className="logo" />
-        <Menu mode="horizontal" defaultSelectedKeys={['2']}>
-          <Menu.Item key="1">nav 1</Menu.Item>
-          <Menu.Item key="2">nav 2</Menu.Item>
-          <Menu.Item key="3">nav 3</Menu.Item>
+        <div className="logo">
+            <i className="fas fa-bolt"></i>
+            <a href="#">React Antd</a>
+        </div>
+        <Menu mode="horizontal" defaultSelectedKeys={['home']}>
+          <Menu.Item key="home">Home</Menu.Item>
+          <Menu.Item key="about">About</Menu.Item>
+          <Menu.Item key="features">Features</Menu.Item>
+          <Menu.Item key="howitworks">How It Works</Menu.Item>
+          <Menu.Item key="faq">FAQ</Menu.Item>
+          <Menu.Item key="pricing">Pricing</Menu.Item>
+          <Menu.Item key="contact">Contact</Menu.Item>
         </Menu>
       </div>
     </div>
