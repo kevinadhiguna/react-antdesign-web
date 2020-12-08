@@ -9,7 +9,7 @@ const { Header } = Layout;
 
 function App() {
   return (
-    <Layout className="layout">
+    <Layout className="mainLayout">
       <Header>
         <AppHeader />
       </Header>
