@@ -7,7 +7,7 @@ function AppHeader() {
       <div className="header">
         <div className="logo">
             <i className="fas fa-bolt"></i>
-            <a href="#">React Antd</a>
+            <a href="https://google.com">React Antd</a>
         </div>
         <Menu mode="horizontal" defaultSelectedKeys={['home']}>
           <Menu.Item key="home">Home</Menu.Item>
