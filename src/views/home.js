@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AppHero from '../views/home';
+import AppHero from '../components/home/hero';
 
 function AppHome() {
     return(
