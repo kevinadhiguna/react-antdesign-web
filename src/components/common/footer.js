@@ -32,7 +32,7 @@ function AppFooter() {
                         </a>
                     </li>
                 </ul>
-                <div className="copyright">Copyright &copy; 2020 React Antd</div>
+                <div className="copyright">Copyright &copy; {new Date().getFullYear()} React Antd</div>
                 <BackTop>
                     <div ></div>
                 </BackTop>
