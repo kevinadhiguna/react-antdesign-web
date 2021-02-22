@@ -34,7 +34,9 @@ function AppFooter() {
                 </ul>
                 <div className="copyright">Copyright &copy; {new Date().getFullYear()} React Antd</div>
                 <BackTop>
-                    <div ></div>
+                    <div className="goTop">
+                        <i className="fas fa-arrow-circle-up"></i>
+                    </div>
                 </BackTop>
             </div>
         </div>
