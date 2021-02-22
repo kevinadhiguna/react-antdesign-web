@@ -6,6 +6,7 @@ import AppFeature from '../components/home/feature';
 import AppWorks from '../components/home/works';
 import AppFaq from '../components/home/faq';
 import AppPricing from '../components/home/pricing';
+import AppContact from '../components/home/contact';
 
 function AppHome() {
   return (
@@ -16,6 +17,7 @@ function AppHome() {
       <AppWorks />
       <AppFaq />
       <AppPricing />
+      <AppContact />
     </div>
   );
 }
